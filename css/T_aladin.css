@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+
+.sec1 {
+    height: 500px;
+    /* width: 100%; */
+}
+
+
+.logo {
+    font-size: 30px;
+}
+
+.inner1 {
+    width: 100%;
+    padding: 0 20px;
+
+    /* width: 767px;
+    margin: unset;
+    padding: 18px 50px 18px 30px; */
+
+
+}
+
+.best {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+
+}
+
+.best .swiper-slide div {    
+    width: 171px;
+    height: 235px;
+}
+
+.best .swiper-slide h4 {
+    font-size: 13px;
+}
+
+.best .swiper-slide h3 {
+    font-size: 15px;
+
+}
+
+.best .swiper-slide img {
+    width: 104px;
+    height: 167px;
+}
+
+.best .swiper-slide hr {
+    height: 265px;
+}
+
+.best .swiper-slide p {
+    padding: 0 25px 0 0;
+    font-size: 13PX;
+    line-height: 30px;
+}
+
+.sec2 {
+    height: 200px;
+}
+
+.categori {
+    width: 100%;
+    /* width: 677px; */
+    height: 111px;
+    gap: 78px;
+    padding: 0 20px;
+}
+
+.categori a {
+    width: 73px;
+}
+
+.categori>a:hover span {
+    transition-timing-function:unset;
+    transform:unset;
+    transition:unset;
+   
+}
+
+
+.categori>a:active span {
+    box-shadow: inset 10px 10px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
+
+}
+
+.radious {
+    width: 73px;
+    height: 73px;
+    padding: 0;
+
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.sec3 {
+    height: 350px;
+
+}
+
+.inner3 {
+    width: 820px;
+    height: 350px;
+    outline: 1px solid green;
+
+}
+
+.inner3 h5 {
+    font-size: 25px;
+    /* font-size: 900; */
+    padding: 0 0 60px 60px;
+    outline: 1px solid green;
+}
+
+.att {
+    height: 235px;
+}
+
+
+.att .swiper-slide img {
+    width: 124px;
+    height: 183px;
+}
+
+.att .swiper-slide .group{
+    justify-content:unset;
+    gap: 25px;
+}
+
+.att .swiper-slide h6 {
+    margin: 0;
+    outline: 1px solid red;
+
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 13px;
+    line-height: 18px;
+
+}
+
+.att .swiper-slide div div {
+    outline: 1px solid red;
+
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.sec4 {
+    height: 350px;
+    outline: 1px solid red;
+}
+
+.inner4 {
+    /* outline: 1px solid blue; */
+    height: 350px;
+    width: 820px;
+}
+
+.age {
+    padding: 0 0 0 60px;
+
+}
+
+.inner4 h5 {
+    font-size: 25px;
+    /* font-size: 900; */
+    padding: 0 0 10px 60px;
+}
+
+
+.tabButton {
+    font-size: 18px;
+    padding: 1px 15px;
+}
+
+/* .age .contents{
+    height: 146px;
+} */
+
+.tabBox img{
+    width: 84px;
+    height: 107px;
+}

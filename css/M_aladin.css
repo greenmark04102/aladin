@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+:root {
+    --swiper-navigation-size: 20px;
+}
+
+.sec1 {
+    height: 325px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.inner1 {
+    width: 100%;
+    padding: 0 0 0 5px;
+    height: 60px;
+
+    /* width: 767px;
+    margin: unset;
+    padding: 18px 50px 18px 30px; */
+}
+
+.nav {
+    display: none;
+}
+
+.best {
+    width: 100%;
+    height: 250px;
+    padding: 30px 0 0 0;
+
+}
+
+.best .swiper-slide{
+    width: 100%;
+}
+
+.best .swiper-slide div {    
+    width: 171px;
+    height: 235px;
+    /* outline: 1px solid black; */
+}
+
+.best .swiper-slide h4 {
+    font-size: 10px;
+}
+
+.best .swiper-slide h3 {
+    font-size: 13px;
+
+}
+
+.best .swiper-slide img {
+    width: 104px;
+    height: 167px;
+}
+
+.best .swiper-slide hr {
+    display: none;
+
+}
+
+.best .swiper-slide p {
+    display: none;
+
+}
+
+.sec2 {
+    height: 100px;
+}
+
+.categori {
+    /* width: 320px; */
+    width: 100%;
+    height: 72px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.categori a {
+    width: 44px;
+}
+
+.categori>a:hover span {
+    transition-timing-function:unset;
+    transform:unset;
+    transition:unset;  
+}
+
+.categori>a:active span {
+    box-shadow: inset 10px 10px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
+}
+
+.radious {
+    width: 44px;
+    height: 44px;
+    padding: 5px 0 0 0;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+}
+
+.sec2 h6 {
+    font-size: 10px;
+    
+}
+
+.sec3 {
+    height: 300px;
+
+}
+
+.inner3{
+    height: 250px;
+}
+
+.inner3 h5 {
+    font-size: 15px;
+    padding: 30px 0 20px 30px;
+
+}
+
+.att {
+    height: 170px;
+    width: 530px;
+}
+
+.att .swiper-slide {
+    padding: 10px 0 0 15px;
+    
+}
+
+.att .swiper-slide .group {
+    /* outline: 1px solid gold; */
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    height: 155px;
+}
+
+.att .swiper-slide img {
+    width: 98px;
+    height: 127px;
+    margin: 10px 0 0 0;
+}
+
+.att .swiper-slide h6{
+    /* outline: 1px solid gold; */
+
+    font-size: 8px;
+    line-height: 18px;
+
+  }
+
+.att .swiper-slide div .p p:nth-of-type(2){
+    display: none;
+}
+
+.att .swiper-slide div p{
+    /* outline: 1px solid red; */
+    font-size: 10px;
+    line-height: 15px;
+    gap: 0;
+
+    /* padding: 0 0 10px 0; */
+    /* margin: 0 0 10px 0; */
+}
+
+.age .tabBox .pc{
+    display: none;
+}

@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+:root {
+    --swiper-navigation-size: 25px;
+}
+
+.sec1 {
+    height: 500px;
+    
+    width: 100%;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.inner1 {
+    width: 100%;
+    padding: 0 20px;
+
+    /* width: 767px;
+    margin: unset;
+    padding: 18px 50px 18px 30px; */
+
+}
+
+.nav {
+    font-size: 13px;
+}
+
+.best {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+
+}
+
+.best .swiper-slide{
+    width: 100%;
+}
+
+.best .swiper-slide div {    
+    width: 171px;
+    height: 235px;
+    /* outline: 1px solid black; */
+}
+
+.best .swiper-slide h4 {
+    font-size: 13px;
+}
+
+.best .swiper-slide h3 {
+    font-size: 15px;
+
+}
+
+.best .swiper-slide img {
+    width: 104px;
+    height: 167px;
+}
+
+.best .swiper-slide hr {
+    height: 265px;
+}
+
+.best .swiper-slide p {
+    padding: 0 25px 0 0;
+    font-size: 13PX;
+    line-height: 30px;
+}
+
+.sec2 {
+    height: 200px;
+}
+
+.categori {
+    /* width: 677px; */
+    width: 100%;
+    height: 111px;
+    gap: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.categori a {
+    width: 73px;
+}
+
+.categori>a:hover span {
+    transition-timing-function:unset;
+    transform:unset;
+    transition:unset;  
+}
+
+.categori>a:active span {
+    box-shadow: inset 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.radious {
+    width: 73px;
+    height: 73px;
+    padding: 0;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.sec3 {
+    height: 350px;
+
+}
+
+.inner3 {
+    width: 100%;
+    height: 350px;
+    outline: 1px solid green;
+
+}
+
+.inner3 h5 {
+    font-size: 25px;
+    /* font-size: 900; */
+    padding: 0 0 60px 60px;
+    outline: 1px solid green;
+}
+
+.att {
+    height: 235px;
+}
+
+
+.att .swiper-slide img {
+    width: 124px;
+    height: 183px;
+}
+
+.att .swiper-slide .group{
+    justify-content: space-between;
+    /* outline: 1px solid gold; */
+    height: 200px;
+
+}
+
+.att .swiper-slide h6 {
+    margin: 0;
+    /* outline: 1px solid red; */
+
+    /* font-family: 'Nanum Myeongjo', serif; */
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+.att .swiper-slide div p{
+    /* outline: 1px solid red; */
+
+    /* font-family: 'Nanum Myeongjo', serif; */
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.inner4 {
+    padding: 0 0 0 60px;
+}
+.inner4 h5 {
+    font-size: 25px;
+    /* font-size: 900; */
+    padding: 20px 0 30px 0;
+}
+
+/* 
+.age.tab{
+    width: 100px;
+} */
+
+/* .age{
+    display: unset;
+} */
+
+
+
+.tabButton {
+    font-size: 18px;
+    padding: 1px 13px;
+
+}
+
+.age .contents{
+    padding: 25px 0 0 80px;
+    /* outline: 1px solid red; */
+    
+}
+
+.contents .tabBox{
+    /* height: 145px; */
+    
+    height: 500px;
+
+}
+
+.age .tabBox .pc{
+    display: none;
+}
+
+.mobile {
+    display:contents;
+}
+
+.tabBox .group{
+    gap: 10px;
+}
+
+.contents .tabBox.on{
+    
+    gap: 10px;
+}
+
+.tabBox .group div h6 {
+    font-size: 15px;
+}
+
+.tabBox .group p{
+    font-size: 18px;
+}
+
+.tabBox img{
+    width: 84px;
+    height: 106px;
+}
+
+
+
+.mobile>ul {
+    /* outline: 1px solid red; */
+    /* display: inline; */
+    width: 100%;
+    /* height: 50px; */
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 8px; */
+
+}
+
+li {
+    /* width: 100%;
+    height: 100%; */
+    /* background: radial-gradient(50.67% 99.64% at 52% 49.82%, #000000 0%, rgba(0, 0, 0, 0.83) 100%); */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-width: 1px 0px;
+    /* box-shadow: inset 5px 5px 50px rgba(255, 255, 255, 0.3); */
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 18px 30px 40px 40px; */
+    /* gap: 20px; */
+    max-width: 550px;
+    height: 50px;
+}
+
+.mobile a{
+    /* outline: 1px solid gold; */
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.mobile p {
+    font-size: 20px;
+    /* outline: 1px solid green; */
+}
+
+.mobile h6{
+    font-size: 20px;
+
+    /* display: flex;
+    justify-content: flex-end;
+     */
+    /* text-indent: center; */
+}
+
+.mobile img{
+    color: #fff;
+}
+
+.mobile .open {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+} 
+
+.mobile li:nth-of-type(2){
+    /* height: 500px; */
+}
