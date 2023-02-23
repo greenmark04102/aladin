@@ -131,6 +131,7 @@ img {
 .att {
     height: 170px;
     width: 530px;
+    margin: 0;
 }
 
 .att .swiper-slide {

@@ -38,34 +38,13 @@ Array.from(tabButtons).forEach((eachBotton, index)=>{
 });
   tabButtons[0].click();
 
-  // var swiper = new Swiper(".ship", {
-  //   effect: "coverflow",
-  //   // loop: true,
-  //   grabCursor: true,
-  //   centeredSlides: true,
-  //   slidesPerView: "auto",
-  //   coverflowEffect: {
-  //     rotate: 50,
-  //     stretch: 0,
-  //     depth: 100,
-  //     modifier: 1,
-  //     slideShadows: true,
-  //   },
-  // });
-
 
   $(function() {
     // 메뉴클릭시 하위메뉴 슬라이드 다운
     // 하위메뉴가 열린상태에서 다른메뉴 클릭시 변경, 자기메뉴 클릭시 슬라이드 업
-    $(".material-icons").click(function() {
-        $('.content').children().removeClass('on');
-        if ($(this).hasClass('on')) {
-            $(this).removeClass('on');
-            $("nav").removeClass('on').children().removeClass('on');
-        } else {
-            $("nav").addClass('on');
-            $(this).addClass('on').siblings().removeClass('on');
-            $("#" + $(this).data('id')).addClass('on').siblings().removeClass('on');
-        }
+    $(".mobile ul li .material-symbols-outlined").click(function() {
+      $(".mobile li > div:last-child").slideUp()
+        $(this).parent().parent().next("div").stop().slideToggle(300);
+        
     });
 });
