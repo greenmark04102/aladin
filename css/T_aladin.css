@@ -275,6 +275,16 @@ li .material-symbols-outlined {
     text-align: center;
 }
 
+.inner5 .group .part:hover {
+    transform: unset;
+    transition: unset;
+}
+
+.inner5 a.part:active {
+    box-shadow: inset 10px 10px 0px #000;
+}
+
+
 .inner5 .part img{
     width: 110px;
     height: 180px;
