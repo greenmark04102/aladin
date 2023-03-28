@@ -24,7 +24,7 @@
 }
 
 .best {
-    width: 100%;
+    width: 95%;
     height: 400px;
     padding: 0;
 
@@ -191,9 +191,9 @@ img {
     font-size: 15px;
 }
 
-.tabBox .group p{
+/* .tabBox .group p{
     font-size: 18px;
-}
+} */
 
 .tabBox img{
     width: 84px;
@@ -213,7 +213,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 550px;
+    width: 550px;
     height: auto;
 }
 
@@ -235,11 +235,9 @@ li .material-symbols-outlined {
     
 }
 .mobile li > div:first-child{
-
     display: flex;
     flex-direction: row;
     gap: 30px;
-    
 }
 
 .mobile h6{
@@ -280,7 +278,7 @@ li .material-symbols-outlined {
     transition: unset;
 }
 
-.inner5 a.part:active {
+.inner5 .group .part img:active {
     box-shadow: inset 10px 10px 0px #000;
 }
 
